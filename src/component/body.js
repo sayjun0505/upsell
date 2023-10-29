@@ -72,6 +72,9 @@ export default function Body() {
                                 $14 Each($84.00 Total!)
                             </span>
                         </div>
+                        <div className='md:hidden'>
+                            <img src={Image4} className='w-full'  alt="images"></img>
+                        </div>
                         <div className='flex mt-8 xl:flex-row xl:items-center mb-4'>
                             <div className='w-[134px] h-[134px] bg-blue-500 rounded-lg justify-center items-center'>
                                 <img src={Preview} className='w-[134px]'  alt="images"></img>
@@ -95,9 +98,7 @@ export default function Body() {
                             </div>
                         </div>
                         <span className='xl:hidden'>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</span>
-                        <div className='md:hidden'>
-                            <img src={Image4} className='w-full'  alt="images"></img>
-                        </div>
+                        
                         <div className='text-left mt-8'>
                             <div className='flex flex-row'>
                                 <Tickcircle />
