@@ -23,18 +23,30 @@ export default function Header() {
     };
     return (
         <>
-            <div className='hidden md:block '>
-                <div className="flex justify-center w-full bg-[#252F3D] h-[50px]">
-                    <div className="flex flex-row w-11/12 justify-between text-white items-center">
-                        <div className='flex flex-row justify-center items-center'><Flentcheck /><span className='ml-2'>30-DAY SATISFACTION GUARANTEE</span></div>
-                        <div className='flex flex-row justify-center items-center'><Truck /><span className='ml-2'>FREE DELIVERY ON ORDERS OVER $40.00</span></div>
-                        <div className='flex flex-row justify-center items-center'><Heart /><span className='ml-2'>50,000+ HAPPY CUSTOMERS</span></div>
-                        <div className='flex flex-row justify-center items-center'><Synccheck /><span className='ml-2'>100% MONEY BACK GUARANTEE</span></div>
-                    </div>
+            <div className="hidden md:block flex justify-center items-center w-full bg-[#252F3D] h-[50px] ">
+                <div className="flex flex-row w-11/12 justify-between text-white items-center">
+                    <div className='flex flex-row justify-center items-center'><Flentcheck /><span className='ml-2'>30-DAY SATISFACTION GUARANTEE</span></div>
+                    <div className='flex flex-row justify-center items-center'><Truck /><span className='ml-2'>FREE DELIBERY ON ORDERS OVER $40.00</span></div>
+                    <div className='flex flex-row justify-center items-center'><Heart /><span className='ml-2'>50.000+HAPPY CUSTOMERS</span></div>
+                    <div className='flex flex-row justify-center items-center'><Synccheck /><span className='ml-2'>100%MONEY BACK GUARANTEE</span></div>
                 </div>
-            </div>            
-
-            <div className="block md:hidden" style={{ padding: `0 ${chevronWidth}px`,background: '#252F3D'}}>
+            </div>
+            {/* <ItemsCarousel
+                requestToChangeActive={setActiveItemIndex}
+                activeItemIndex={activeItemIndex}
+                numberOfCards={1}
+                gutter={20}
+                leftChevron={<img src={Layer_1} className='prev-btn'/>}
+                rightChevron={<img src={Layer_1}  className='next-btn'/>}
+                outsideChevron={true}
+                chevronWidth={chevronWidth}
+            >
+                <span className='ml-2'>30-DAY SATISFACTION GUARANTEE</span>
+                <span className='ml-2'>FREE DELIBERY ON ORDERS OVER $40.00</span>
+                <span className='ml-2'>50.000+HAPPY CUSTOMERS</span>
+                <span className='ml-2'>100%MONEY BACK GUARANTEE</span>
+            </ItemsCarousel> */}
+            {/* <div className="block md:hidden" style={{ padding: `0 ${chevronWidth}px`,background: '#252F3D'}}>
                 <ItemsCarousel
                     requestToChangeActive={setActiveItemIndex}
                     activeItemIndex={activeItemIndex}
@@ -50,8 +62,10 @@ export default function Header() {
                     <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>50.000+HAPPY CUSTOMERS</div>
                     <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>100%MONEY BACK GUARANTEE</div>
                 </ItemsCarousel>
-            </div>
-            <div className="flex justify-center w-full bg-white h-[96px] ">
+            </div> */}
+            
+
+            {/* <div className="flex justify-center w-full bg-white h-[96px] ">
                 <div className="flex flex-row w-11/12 justify-between text-red items-center">
                     <div className='w-[106px] h-[20px] md:w-[192px] md:-[36px]'>
                         <img src={Clarifion} alt="images" />
@@ -61,7 +75,7 @@ export default function Header() {
                         <div className='ml-4'><AntiV className="w-size h-size" /></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

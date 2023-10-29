@@ -143,8 +143,8 @@ export default function Body() {
                             </div>
                             <span className='hidden xl:inline'>|</span>
                             <div className=" xl:hidden m-3 border-b border w-11/12 h-[1px]"></div>
-                            <div id="bank" className='flex flex-col xl:flex-row xl:items-center'>
-                                <div className='flex flex-row space-x-5'>
+                            <div id="bank" className=' w-11/12 flex flex-col xl:flex-row  items-center justify-center xl:items-center '>
+                                <div className=' flex flex-row space-x-5'>
                                     <Visa />
                                     <Shoppay />
                                     <GPay />
