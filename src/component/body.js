@@ -158,7 +158,7 @@ export default function Body() {
                                 </div>
                             </div>
                         </div>  */}
-                        <div className='border-2 mt-3 flex flex-col md:flex-row justify-between items-center border rounded-md py-2 px-4'>
+                        {/* <div className='border-2 mt-3 flex flex-col md:flex-row justify-between items-center border rounded-md py-2 px-4'>
                             <div className='flex flex-row items-center space-x-2 md:space-x-5'>
                                 <span id='a' className='text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Free Shipping</span>
                                 <span id='b'>|</span>
@@ -183,6 +183,37 @@ export default function Body() {
                                 </div>
                             </div>
 
+                        </div> */}
+                        <div className='border-2 mt-3 flex flex-col md:flex-row justify-between items-center border rounded-md py-2 px-4'>                            
+                            <span id='a' className='text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize hidden md:inline'>Free Shipping</span>
+                            <span id='b' className='hidden md:inline'>|</span>
+                            <div id='c' className='flex flex-row items-center space-x-1 md:space-x-5 hidden md:flex'>
+                                <Lock7 />
+                                <span className='mr-2 text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Secure 256-Bit SS: Encryption.</span>
+                            </div>
+                            <div className='inline md:hidden flex flex-row items-center space-x-2 md:space-x-5'>
+                                <span id='a' className='text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Free Shipping</span>
+                                <span id='b'>|</span>
+                                <div id='c' className='flex flex-row items-center space-x-1 md:space-x-5'>
+                                    <Lock7 />
+                                    <span className='mr-2 text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Secure 256-Bit SS: Encryption.</span>
+                                </div>
+                            </div>
+                            <span className='hidden xl:inline'>|</span>
+                            <div className=" xl:hidden m-3 border-b border w-11/12 h-[1px]"></div>
+                            <div>
+                                <div id="bank" className='flex flex-row items-center space-x-5 md:justify-end md:space-x-5'>
+                                    <div className=' flex flex-row space-x-5'>
+                                        <Visa />
+                                        <Shoppay />
+                                        <GPay />
+                                        <Paypal />
+                                        <Mastercard />
+                                        <Amex />
+                                        <Apple />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 
