@@ -130,7 +130,7 @@ export default function Body() {
                             </span>
                         </div>
 
-                        <div className='mt-8 h-[59px] rounded-full bg-green-500 flex flex-row justify-center items-center gap-10 self-stretch hover:bg-green-400 hover:scale-105 hover:shadow-md'>
+                        <div className='mt-8 h-[59px] rounded-full bg-green-500 flex flex-row justify-center items-center gap-10 self-stretch hover:cursor-pointer hover:bg-green-400 hover:scale-105 hover:shadow-md'>
                             <span className='text-white font-manrope text-sm md:text-2xl font-normal font-bold leading-normal uppercase'>YES - CLAIM MY DISCOUNT</span>
                             <Line1 />
                         </div>
