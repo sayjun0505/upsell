@@ -95,7 +95,9 @@ export default function Body() {
                             </div>
                         </div>
                         <span className='xl:hidden'>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</span>
-
+                        <div className='md:hidden'>
+                            <img src={Image4} className='w-full'  alt="images"></img>
+                        </div>
                         <div className='text-left mt-8'>
                             <div className='flex flex-row'>
                                 <Tickcircle />
