@@ -6,21 +6,21 @@ import Clarifion from '../asset/image/600a41c73b670a97ae1d4f47_Clarifion_Logo 1.
 import { ReactComponent as McAfeek } from '../asset/image/Frame 1484578055.svg'
 import { ReactComponent as AntiV } from '../asset/image/norton-antivirus-logo 1.svg'
 import Layer_1 from '../asset/image/Layer_1.png'
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ItemsCarousel from "react-items-carousel";
 import React, { useState } from "react";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 export default function Header() {
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     const chevronWidth = 40;
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // };
     return (
         <>
             <div className='hidden md:block '>
@@ -40,8 +40,8 @@ export default function Header() {
                     activeItemIndex={activeItemIndex}
                     numberOfCards={1}
                     gutter={20}
-                    leftChevron={<img src={Layer_1}></img>}
-                    rightChevron={<img src={Layer_1} className='transform rotate-180'></img>}
+                    leftChevron={<img src={Layer_1} alt="images"></img>}
+                    rightChevron={<img src={Layer_1} className='transform rotate-180' alt="images"></img>}
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >
