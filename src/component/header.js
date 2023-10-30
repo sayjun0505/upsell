@@ -35,7 +35,7 @@ export default function Header() {
             </div>            
 
             <div className="block md:hidden" style={{ padding: `0 ${chevronWidth}px`,background: '#252F3D'}}>
-                <ItemsCarousel
+                {/* <ItemsCarousel
                     requestToChangeActive={setActiveItemIndex}
                     activeItemIndex={activeItemIndex}
                     numberOfCards={1}
@@ -45,10 +45,25 @@ export default function Header() {
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >
-                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>30-DAY SATISFACTION GUARANTEE</div>
-                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>FREE DELIBERY ON ORDERS OVER $40.00</div>
-                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>50.000+HAPPY CUSTOMERS</div>
-                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>100%MONEY BACK GUARANTEE</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>30-DAY SATISFACTION GUARANTEE</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>FREE DELIBERY ON ORDERS OVER $40.00</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>50.000+HAPPY CUSTOMERS</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>100%MONEY BACK GUARANTEE</div>
+                </ItemsCarousel> */}
+                <ItemsCarousel
+                    requestToChangeActive={setActiveItemIndex}
+                    activeItemIndex={activeItemIndex}
+                    numberOfCards={1}
+                    gutter={20}
+                    leftChevron={<img src={Layer_1} alt="images"></img>}
+                    rightChevron={<img src={Layer_1} className='transform rotate-180' alt="images"></img>}
+                    outsideChevron
+                    chevronWidth={chevronWidth}
+                    >
+                    <div className="h-42 bg-[#252F3D] text-white flex items-center justify-center">30-DAY SATISFACTION GUARANTEE</div>
+                    <div className="h-42 bg-[#252F3D] text-white flex items-center justify-center">FREE DELIVERY ON ORDERS OVER $40.00</div>
+                    <div className="h-[42px] bg-[#252F3D] text-white flex items-center justify-center">50,000+ HAPPY CUSTOMERS</div>
+                    <div className="h-[42px] bg-[#252F3D] text-white flex items-center justify-center">100% MONEY BACK GUARANTEE</div>
                 </ItemsCarousel>
             </div>
             <div className="flex justify-center w-full bg-white h-[96px] ">
