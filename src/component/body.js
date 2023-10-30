@@ -153,7 +153,7 @@ export default function Body() {
                             <div className=" md:hidden m-3 border-b border w-11/12 h-[1px]"></div>
                             <div>
                                 <div id="bank" className='flex flex-row items-center space-x-5 md:justify-end md:space-x-5'>
-                                    <div className=' flex flex-row space-x-3'>
+                                    <div className=' flex flex-row space-x-2 sm:space-x-3 md:space-x-4 lg:space-x-3'>
                                         <Visa />
                                         <Shoppay />
                                         <GPay />
