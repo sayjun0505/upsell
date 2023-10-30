@@ -45,10 +45,10 @@ export default function Header() {
                     outsideChevron
                     chevronWidth={chevronWidth}
                 >
-                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>30-DAY SATISFACTION GUARANTEE</div>
-                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>FREE DELIBERY ON ORDERS OVER $40.00</div>
-                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>50.000+HAPPY CUSTOMERS</div>
-                    <div style={{ height: 42, background: '#252F3D', color:'#252F3D', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>100%MONEY BACK GUARANTEE</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>30-DAY SATISFACTION GUARANTEE</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>FREE DELIBERY ON ORDERS OVER $40.00</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>50.000+HAPPY CUSTOMERS</div>
+                    <div style={{ height: 42, background: '#252F3D', color:'#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>100%MONEY BACK GUARANTEE</div>
                 </ItemsCarousel> */}
                 <ItemsCarousel
                     requestToChangeActive={setActiveItemIndex}
