@@ -39,7 +39,7 @@ export default function Body() {
             </div>
             <div className="flex justify-center w-full mt-[40px] ">
                 <div className="flex flex-row w-11/12 justify-between bg-[#fafafa]-500 text-black items-center p-10">
-                    <div className='hidden md:inline w-[48%]'>
+                    <div className='hidden lg:inline w-[48%]'>
                         <div className=''>
                             <img src={Image4} className='w-full' alt="images"></img>
                         </div>
@@ -60,7 +60,7 @@ export default function Body() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full md:w-[48%]' >
+                    <div className='w-full lg:w-[48%]' >
                         <div className='text-left'>
                             <span class="text-blue-500 leading-trim text-capitalize font-manrope font-normal text-[24px] md:text-[32px] leading-snug">
                                 ONE TIME ONLY
@@ -72,7 +72,7 @@ export default function Body() {
                                 $14 Each($84.00 Total!)
                             </span>
                         </div>
-                        <div className='md:hidden'>
+                        <div className='lg:hidden'>
                             <img src={Image4} className='w-full' alt="images"></img>
                         </div>
                         <div className='flex mt-8 xl:flex-row xl:items-center mb-4'>
@@ -149,11 +149,11 @@ export default function Body() {
                                     <span className='mr-2 text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Secure 256-Bit SS: Encryption.</span>
                                 </div>
                             </div>
-                            <span className='hidden xl:inline'>|</span>
-                            <div className=" xl:hidden m-3 border-b border w-11/12 h-[1px]"></div>
+                            <span className='hidden md:inline'>|</span>
+                            <div className=" md:hidden m-3 border-b border w-11/12 h-[1px]"></div>
                             <div>
                                 <div id="bank" className='flex flex-row items-center space-x-5 md:justify-end md:space-x-5'>
-                                    <div className=' flex flex-row space-x-5'>
+                                    <div className=' flex flex-row space-x-3'>
                                         <Visa />
                                         <Shoppay />
                                         <GPay />
@@ -164,6 +164,9 @@ export default function Body() {
                                     </div>
                                 </div>
                             </div>
+
+
+
                         </div>
 
 
