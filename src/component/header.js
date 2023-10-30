@@ -13,7 +13,7 @@ import React, { useState } from "react";
 // import Slider from "react-slick";
 export default function Header() {
     const [activeItemIndex, setActiveItemIndex] = useState(0);
-    const chevronWidth = 40;
+    const chevronWidth = 45;
     // const settings = {
     //     dots: true,
     //     infinite: true,

@@ -31,10 +31,10 @@ export default function Body() {
             </div>
             <div className="flex justify-center w-full mt-16 h-[50px] ">
                 <div className="flex flex-row w-11/12 justify-between text-black items-center">
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} alt="images" /><span className='hidden  lg:inline ml-4'>Step 1 : </span>Cart Review</div>
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} className=' mr-4' alt="images" /><span className='hidden  lg:inline ml-4'>Step 2 : </span>Checkout</div>
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='bg-blue-600 text-white w-[40px] h-[40px] rounded-full flex justify-center items-center mr-4'>3</span><span className='hidden  lg:inline ml-4'>Step 3 : </span>Special Offer</div>
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='border-2 border-blue-600 text-blue-600 w-[40px] h-[40px] rounded-full flex justify-center items-center  mr-4'>4</span><span className='hidden  lg:inline ml-4'>Step 4 : </span>Confirmation</div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} alt="images" /><span className='hidden  lg:inline ml-4'>Step 1 : </span><span className='text-[10px] sm:text-[12px]'>Cart Review</span></div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} className=' mr-4' alt="images" /><span className='hidden  lg:inline ml-4'>Step 2 : </span><span className='text-[10px] sm:text-[12px]'>Checkout</span></div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='bg-blue-600 text-white w-[40px] h-[40px] rounded-full flex justify-center items-center mr-4'>3</span><span className='hidden  lg:inline ml-4'>Step 3 : </span><span className='text-[10px] sm:text-[12px]'>Special Offer</span></div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='border-2 border-blue-600 text-blue-600 w-[40px] h-[40px] rounded-full flex justify-center items-center  mr-4'>4</span><span className='hidden  lg:inline ml-4'>Step 4 : </span><span className='text-[10px] sm:text-[12px]'>Confirmation</span></div>
                 </div>
             </div>
             <div className="flex justify-center w-full mt-[40px] ">
@@ -134,56 +134,6 @@ export default function Body() {
                             <span className='text-white font-manrope text-sm md:text-2xl font-normal font-bold leading-normal uppercase'>YES - CLAIM MY DISCOUNT</span>
                             <Line1 />
                         </div>
-
-                        {/* <div className='border-2 mt-3 flex flex-col md:flex-row justify-between items-center border rounded-md py-2 px-4'>                           
-                            <div className='flex flex-row items-center space-x-2 md:space-x-5'>
-                                <span id='a' className='text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Free Shipping</span>
-                                <span id='b'>|</span>
-                                <div id='c' className='flex flex-row items-center space-x-1 md:space-x-5'>
-                                    <Lock7 />
-                                    <span className='mr-2 text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Secure 256-Bit SS: Encryption.</span>
-                                </div>
-                            </div>
-                            <span className='hidden xl:inline'>|</span>
-                            <div className=" xl:hidden m-3 border-b border w-11/12 h-[1px]"></div>
-                            <div id="bank" className=' w-11/12 flex flex-col xl:flex-row  items-center justify-center xl:items-center '>
-                                <div className=' flex flex-row space-x-5'>
-                                    <Visa />
-                                    <Shoppay />
-                                    <GPay />
-                                    <Paypal />
-                                    <Mastercard />
-                                    <Amex />
-                                    <Apple />
-                                </div>
-                            </div>
-                        </div>  */}
-                        {/* <div className='border-2 mt-3 flex flex-col md:flex-row justify-between items-center border rounded-md py-2 px-4'>
-                            <div className='flex flex-row items-center space-x-2 md:space-x-5'>
-                                <span id='a' className='text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Free Shipping</span>
-                                <span id='b'>|</span>
-                                <div id='c' className='flex flex-row items-center space-x-1 md:space-x-5'>
-                                    <Lock7 />
-                                    <span className='mr-2 text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize'>Secure 256-Bit SS: Encryption.</span>
-                                </div>
-                            </div>
-                            <span className='hidden xl:inline'>|</span>
-                            <div className=" xl:hidden m-3 border-b border w-11/12 h-[1px]"></div>
-                            <div>
-                                <div id="bank" className='flex flex-row items-center space-x-5 md:justify-end md:space-x-5'>
-                                    <div className=' flex flex-row space-x-5'>
-                                        <Visa />
-                                        <Shoppay />
-                                        <GPay />
-                                        <Paypal />
-                                        <Mastercard />
-                                        <Amex />
-                                        <Apple />
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> */}
                         <div className='border-2 mt-3 flex flex-col md:flex-row justify-between items-center border rounded-md py-2 px-4'>                            
                             <span id='a' className='text-gray-700 font-manrope text-xs font-normal leading-relaxed capitalize hidden md:inline'>Free Shipping</span>
                             <span id='b' className='hidden md:inline'>|</span>
