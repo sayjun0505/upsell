@@ -21,24 +21,25 @@ import { ReactComponent as Bluepoint } from '../asset/image/Group 1000001340.svg
 export default function Body() {
     return (
         <>
-            <div className="flex flex-col justify-center items-center">
-                <div class="text-black leading-trim-both text-capitalize font-manrope text-4xl font-normal leading-48">
+            <div className="flex flex-col w-10/12 lg:w-full mx-auto">
+                <div class="text-black leading-trim-both text-capitalize font-manrope text-4xl font-normal leading-48 mx-auto">
                     Wait! Your Order In Progress
                 </div>
-                <div class="mt-6 text-gray-700 leading-trim-both text-capitalize font-manrope text-base font-normal leading-6">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
+                <div class="mt-6 w-full text-gray-700 leading-trim-both text-capitalize font-manrope font-normal leading-6 ">
+                    <span className='text-[14px] sm:text-base'>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing</span>
                 </div>
             </div>
-            <div className="flex justify-center w-full mt-16 h-[50px] ">
-                <div className="flex flex-row w-11/12 justify-between text-black items-center">
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} alt="images" /><span className='hidden  lg:inline ml-4'>Step 1 : </span><span className='text-[10px] sm:text-[12px]'>Cart Review</span></div>
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} className=' mr-4' alt="images" /><span className='hidden  lg:inline ml-4'>Step 2 : </span><span className='text-[10px] sm:text-[12px]'>Checkout</span></div>
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='bg-blue-600 text-white w-[40px] h-[40px] rounded-full flex justify-center items-center mr-4'>3</span><span className='hidden  lg:inline ml-4'>Step 3 : </span><span className='text-[10px] sm:text-[12px]'>Special Offer</span></div>
-                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='border-2 border-blue-600 text-blue-600 w-[40px] h-[40px] rounded-full flex justify-center items-center  mr-4'>4</span><span className='hidden  lg:inline ml-4'>Step 4 : </span><span className='text-[10px] sm:text-[12px]'>Confirmation</span></div>
+
+            <div className="flex justify-center w-10/12 lg:w-full mt-16 h-[50px] mx-auto ">
+                <div className="flex flex-row w-full lg:w-11/12 justify-between text-black items-center">
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} alt="images" /><span className='hidden  lg:inline lg:ml-4'>Step 1 : </span><span className='text-[10px] sm:text-[12px]'>Cart Review</span></div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><img src={check} className=' lg:mr-4' alt="images" /><span className='hidden  lg:inline ml-4'>Step 2 : </span><span className='text-[10px] sm:text-[12px]'>Checkout</span></div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='bg-blue-600 text-white w-[40px] h-[40px] rounded-full flex justify-center items-center lg:mr-4'>3</span><span className='hidden  lg:inline ml-4'>Step 3 : </span><span className='text-[10px] sm:text-[12px]'>Special Offer</span></div>
+                    <div className='flex flex-col lg:flex-row justify-center items-center '><span className='border-2 border-blue-600 text-blue-600 w-[40px] h-[40px] rounded-full flex justify-center items-center  lg:mr-4'>4</span><span className='hidden  lg:inline ml-4'>Step 4 : </span><span className='text-[10px] sm:text-[12px]'>Confirmation</span></div>
                 </div>
             </div>
             <div className="flex justify-center w-full mt-[40px] ">
-                <div className="flex flex-row w-11/12 justify-between bg-[#fafafa]-500 text-black items-center p-10">
+                <div className="flex flex-row w-full lg:w-11/12 justify-between bg-[#fafafa]-500 text-black items-center lg:p-10">
                     <div className='hidden lg:inline w-[48%]'>
                         <div className=''>
                             <img src={Image4} className='w-full' alt="images"></img>
@@ -60,7 +61,7 @@ export default function Body() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-full lg:w-[48%]' >
+                    <div className='mx-auto w-10/12 lg:w-[48%]' >
                         <div className='text-left'>
                             <span class="text-blue-500 leading-trim text-capitalize font-manrope font-normal text-[24px] md:text-[32px] leading-snug">
                                 ONE TIME ONLY
@@ -72,11 +73,11 @@ export default function Body() {
                                 $14 Each($84.00 Total!)
                             </span>
                         </div>
-                        <div className='lg:hidden'>
+                        <div className='mt-4 lg:hidden'>
                             <img src={Image4} className='w-full' alt="images"></img>
                         </div>
                         <div className='flex mt-8 xl:flex-row xl:items-center mb-4'>
-                            <div className='w-[134px] h-[134px] bg-blue-500 rounded-lg justify-center items-center'>
+                            <div className='w-[70px] h-[70px] sm:w-[100px] lg:w-[134px] sm:h-[100px] lg:h-[134px] bg-blue-500 rounded-lg justify-center items-center my-auto'>
                                 <img src={Preview} className='w-[134px]' alt="images"></img>
                             </div>
                             <div className='w-8/12 flex flex-col ml-6 justify-center'>
@@ -164,22 +165,16 @@ export default function Body() {
                                     </div>
                                 </div>
                             </div>
-
-
-
                         </div>
-
-
-
-                        <div className='mt-5 text-center text-red-600 font-manrope text-xl font-medium underline uppercase'>
+                        <div className='mt-5 text-center text-red-600 font-manrope text-3 lg:text-xl font-medium underline uppercase'>
                             NO THANKS,  I DON"T WANT THIS.
                         </div>
                         <div className='mt-6 md:mt-8 flex flex-row justify-center items-center'>
-                            <img src={Image6} className='w-[88px]' alt="images"></img>
+                            <img src={Image6} className='w-[60px] lg:w-[88px]' alt="images"></img>
                             <div className='ml-4 text-left'>
-                                <span className='text-gray-700 leading-trim text-capitalize font-manrope text-base font-normal leading-snug'>If you are not completley thrilled with your Clarifion- We have a</span>
-                                <span className='ml-3 text-gray-700 leading-trim text-capitalize font-manrope font-bold text-base leading-tight'>30 day satisfaction guarantee. </span>
-                                <span className='text-gray-700 leading-trim text-capitalize font-manrope text-base font-normal leading-snug'>Please refer to our return policy at the bottom of the page for more details.
+                                <span className='text-gray-700 leading-trim text-capitalize font-manrope text-3 lg:text-base font-normal leading-snug'>If you are not completley thrilled with your Clarifion- We have a</span>
+                                <span className='ml-3 text-gray-700 leading-trim text-capitalize font-manrope font-bold text-3 lg:text-base leading-tight'>30 day satisfaction guarantee. </span>
+                                <span className='text-gray-700 leading-trim text-capitalize font-manrope text-3 lg:text-base font-normal leading-snug'>Please refer to our return policy at the bottom of the page for more details.
                                     Happy Shopping!
                                 </span>
                             </div>
