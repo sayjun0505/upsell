@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <>
-            <div className="flex justify-center w-full bg-[#252F3D] md:h-[88px] pt-7 pb-5">
+            <div className="mt-8 flex justify-center w-full bg-[#252F3D] md:h-[88px] pt-7 pb-5">
                 <div className="flex flex-col md:flex-row w-11/12 justify-between">
                     <div ><span className="text-white text-center font-manrope text-xs md:text-base font-normal leading-6 capitalize">Copyright (C) 2023 </span><span className="ml-3"></span>|<span className="ml-3"></span> <span className="text-white text-center font-manrope text-xs md:text-base font-normal leading-6 capitalize">clarifionsupport@clarifion.com</span></div>
                     <div className="flex flex-row justify-center items-center mt-6 md:mt-0">
